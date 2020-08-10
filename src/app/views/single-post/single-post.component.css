@@ -1,0 +1,9 @@
+h2{
+    color: #27AE60;
+}
+h5{
+    color: #273746;  
+}
+.card-post:hover{
+    box-shadow: 0 0 6px #27AE60;
+}

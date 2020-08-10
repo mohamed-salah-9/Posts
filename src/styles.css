@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Great+Primer+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Changa&display=swap');
+.font{
+  font-family: 'IM Fell Great Primer SC', serif;
+
+}
+.font1{
+  font-family: 'Abril Fatface', cursive;
+
+}
+.font2{
+  font-family: 'Indie Flower', cursive;
+}

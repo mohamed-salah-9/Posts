@@ -1,0 +1,19 @@
+<div class="container border bg-light mt-5">
+    <h2 class="text-center font-weight-bold font1">EDIT</h2>
+    <div class="pt-5">
+        <form #myForm="ngForm" (ngSubmit)='Editpost(myForm.value)'>
+            <div class="form-group">
+                <label class="font-weight-bold labelpost">Title</label>
+                <input class="form-control" name="title" [(ngModel)]='post.title'>
+            </div>
+            <div class="form-group">
+                <label class="font-weight-bold">Body</label>
+                <textarea class="form-control"rows="3" name="body" [(ngModel)]='post.body'></textarea>
+            </div>
+            <button type="submit" class="btn btn-success float-right "><i class="far fa-edit mr-1"></i>Edit</button>
+        </form>
+    </div>
+    <div class="pb-2">
+        <a class="btn btn-danger  text-white"  routerLink="">Dack</a>
+    </div>
+</div>
